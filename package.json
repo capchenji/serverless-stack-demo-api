@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/AnomalyInnovations/serverless-stack-demo-api#readme",
   "devDependencies": {
-    "aws-sdk": "^2.112.0"
+    "aws-sdk": "^2.176.0"
   },
   "dependencies": {
     "uuid": "^3.1.0"
