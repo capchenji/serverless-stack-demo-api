@@ -7,3 +7,5 @@ export function call(action, params) {
 
   return dynamoDb[action](params).promise();
 }
+
+export const NOTES_TABLE = process.env.NOTES_TABLE || "notes";
