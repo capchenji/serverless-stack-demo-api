@@ -102,7 +102,9 @@ functions:
     handler: delete.main    
     iamRoleStatements:
       - Effect: Allow
-        Action: dynamodb:DeleteItem
+        Action: 
+          - dynamodb:DeleteItem
+          - dynamodb:GetItem
         Resource: "arn:aws:dynamodb:${self:custom.region}:*:table/notes"
     events:
       - http:
